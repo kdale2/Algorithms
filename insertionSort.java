@@ -1,5 +1,8 @@
 public class SortingAlgorithms {
 	
+	//Insertion Sort is O(n^2). Moves elements one at a time to correct position.
+	//Good choice for small n or final finishing-off alg for other sorts like merge or quicksort
+	
 	public static int[] insertionSort(int arr[]) {
 		
 		for (int i = 1; i < arr.length -1; i ++) {
