@@ -18,14 +18,31 @@ public class SortingAlgorithms {
 		return arr;
 	}
 	
-	public static void main(String args[]) {
+	
+	//Poor time complexity of O(n^2), not used for large/medium sized data sets
+	//Iterates over a list comparing each value to its immediate neighbor.
+	//If out of order, the higher value is swapped to the right position. On each iteration one
+	//value is moved ('bubbled up') to its proper location, reducing the set 
+	//to be sorted by 1.
+	
+	public static int[] bubbleSort(int arr[]) {
 		
-		int arr[] = {1, 6, 75, 8, 2, 12, 65, 2, 10};
-		int[] sorted = insertionSort(arr);
+		if (arr.length == 1) {
+			return arr;
+		}
 		
-		for (int i = 0; i < sorted.length -1; i++) {
-			System.out.println(sorted[i]);
-
-		}		
+		int temp;
+		
+		for (int i = 0; i < arr.length; i++) {
+			for (int j=1; j < arr.length-1; j++ ) {
+				if (arr[j-1] > arr[j]) {
+					//swap
+					temp = arr[j-1];
+					arr[j-1] = arr[j];
+					arr[j] = temp;
+				}
+			}
+		}
+		return arr;	
 	}
 }
