@@ -10,14 +10,14 @@ public class HybridQuicksort {
 
 		int size = (r + 1) - p;
 		if (size <= k) {
-			InsertionSort(array);	
+		     InsertionSort(array);	
 		}
 		
 		else {
-				int q = Partition(array, p, r);
-				HybridQuickSort(array, p, q, k);
-				HybridQuickSort(array, q+1, r, k);
-			}
+			int q = Partition(array, p, r);
+			HybridQuickSort(array, p, q, k);
+			HybridQuickSort(array, q+1, r, k);
+		     }
 			return array;
 		}	
 
@@ -45,9 +45,9 @@ public class HybridQuicksort {
 			if (array[j] < pivot) {
 				i++;
 				
-				int temp = array[i];
-				array[i] = array[j];
-				array[j] = temp;
+			   int temp = array[i];
+			   array[i] = array[j];
+			   array[j] = temp;
 			}
 		}
 		
