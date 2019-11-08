@@ -5,4 +5,7 @@ An ongoing collection of algorithms coded in Java
 included so far:<br>
 insertion sort <br>
 bubble sort <br>
-hybrid quicksort
+hybrid quicksort<br><br>
+Plan:<br>
+add folder for dynamic programming algorithms<br>
+add folder for greedy algorithms
