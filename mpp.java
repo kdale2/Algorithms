@@ -10,7 +10,7 @@ public class MPP {
 	public static void main(String[] args) throws FileNotFoundException {
 
 		//Replace this with the path to your input file:
-		File file = new File("C:\\Users\\Kris\\Desktop\\inputMatrix.txt");
+		File file = new File("C:\\inputMatrix.txt");
 		Scanner sc = new Scanner(file);
 		int n = sc.nextInt();
 
