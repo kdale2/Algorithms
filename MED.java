@@ -36,9 +36,9 @@ public class MED {
 				if (one.charAt(i-1) == two.charAt(j-1))
 					solution[i][j] = solution[i-1][j-1];
 				else {
-					solution[i][j] = 	1 +	 Math.min(solution[i][j-1],        //insert
-											 Math.min(solution[i-1][j],  	   //remove
-													  solution[i-1][j-1]));	   //replace
+					solution[i][j] = 	1 + Math.min(solution[i][j-1],        //insert
+								    Math.min(solution[i-1][j],        //remove
+								             solution[i-1][j-1]));    //replace
 				}
 			}
 		}
