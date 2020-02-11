@@ -6,7 +6,8 @@ included so far:<br>
 insertion sort <br>
 bubble sort <br>
 hybrid quicksort<br>
-maximum profit path - using dynamic programming<br><br>
+maximum profit path - using dynamic programming<br>
+minimum edit distance - using dynamic programming<br><br>
 ToDo:<br>
 remaining sort and search algorithms<br>
 dynamic programming algorithms<br>
