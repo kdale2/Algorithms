@@ -6,6 +6,7 @@ included so far:<br>
 insertion sort <br>
 bubble sort <br>
 hybrid quicksort<br><br>
-Plan:<br>
-add folder for dynamic programming algorithms<br>
-add folder for greedy algorithms
+ToDo:<br>
+remaining sort and search algorithms<br>
+dynamic programming algorithms<br>
+greedy algorithms
