@@ -1,4 +1,4 @@
-# SortingAlgorithms
+# Algorithms
 An ongoing collection of algorithms coded in Java
 
 <br>
