@@ -10,5 +10,9 @@ maximum profit path - using dynamic programming<br>
 minimum edit distance - using dynamic programming<br><br>
 ToDo:<br>
 remaining sort and search algorithms<br>
+  -selection sort
+  -merge sort 
+  -quick sort
+  -binary search
 dynamic programming algorithms<br>
 greedy algorithms
